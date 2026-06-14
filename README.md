@@ -50,4 +50,4 @@ tcd['Taux_Baisse_Pct'] = np.where(
 
 
 ## 🖥️ 4. Aperçu du Dashboard Power BI.
-![Dashboard Churn](./dashboard_powerbi/dashboard.png)
+![Dashboard Churn](dashboard_powerbi/dashboard.png)
