@@ -1,0 +1,4 @@
+agent_id,region,quartier,Volume_Mai,Volume_Juin,Taux_Baisse_Pct,Statut_Agent
+AG001,Dakar,Medina,1500000,400000,73.33333333333333,Alerte Critique (Danger Churn)
+AG002,Dakar,Pikine,800000,850000,-6.25,En Croissance / Stable
+AG003,Thies,Escale,2000000,0,100.0,Churn Total (Boutique Fermée)

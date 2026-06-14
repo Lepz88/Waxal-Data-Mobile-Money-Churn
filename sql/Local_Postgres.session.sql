@@ -1,0 +1,1 @@
+CREATE DATABASE waxal_data;
