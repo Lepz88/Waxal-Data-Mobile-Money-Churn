@@ -35,3 +35,19 @@ tcd['Taux_Baisse_Pct'] = np.where(
     ((tcd['Volume_Mai'] - tcd['Volume_Juin']) / tcd['Volume_Mai']) * 100, 
     0.0
 )
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+## 🖥️ 4. Aperçu du Dashboard Power BI.
+![Dashboard Churn](./dashboard_powerbi/dashboard.png)
