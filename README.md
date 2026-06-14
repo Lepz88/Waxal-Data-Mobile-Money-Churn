@@ -22,15 +22,29 @@ Le projet est architecturé selon un pipeline de production de données en 3 bri
 La base de données relationnelle structure l'écosystème financier. Une clé étrangère avec contrainte `ON DELETE CASCADE` lie l'activité transactionnelle aux comptes fixes des agents, assurant l'intégrité référentielle du système.
 
 ```sql
+
+
 SELECT t.agent_id, a.region, a.quartier, t.montant, t.mois
 FROM transactions t
 JOIN agents a ON t.agent_id = a.agent_id
 WHERE t.mois IN (5, 6);
+```
+
+
+Brique 2 : Analyse & Sécurité Algorithmique (Python - Pandas)
+```python
 tcd['Taux_Baisse_Pct'] = np.where(
-    tcd['Volume_Mai'] > 0, 
-    ((tcd['Volume_Mai'] - tcd['Volume_Juin']) / tcd['Volume_Mai']) * 100, 
-    0.0
+tcd['Volume_Mai'] > 0,
+((tcd['Volume_Mai'] - tcd['Volume_Juin']) / tcd['Volume_Mai']) * 100,
+0.0
 )
+```
+
+
+## 🖥️ 4. Aperçu du Dashboard Power BI.
+
+![Dashboard Churn](dashboard_powerbi/dashboard.png)
+
 
 
 
