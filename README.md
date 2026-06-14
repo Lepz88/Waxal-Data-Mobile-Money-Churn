@@ -26,17 +26,11 @@ SELECT t.agent_id, a.region, a.quartier, t.montant, t.mois
 FROM transactions t
 JOIN agents a ON t.agent_id = a.agent_id
 WHERE t.mois IN (5, 6);
-
-Brique 2 : Analyse & Sécurité Algorithmique (Python - Pandas)
-
-
 tcd['Taux_Baisse_Pct'] = np.where(
     tcd['Volume_Mai'] > 0, 
     ((tcd['Volume_Mai'] - tcd['Volume_Juin']) / tcd['Volume_Mai']) * 100, 
     0.0
 )
-
-
 
 
 
