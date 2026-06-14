@@ -56,6 +56,3 @@ tcd['Volume_Mai'] > 0,
 
 
 
-
-## 🖥️ 4. Aperçu du Dashboard Power BI.
-![Dashboard Churn](dashboard_powerbi/dashboard.png)
